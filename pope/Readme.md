@@ -14,3 +14,7 @@ wget http://images.cocodataset.org/zips/val2014.zip
 
 # 解压
 unzip val2014.zip -d /root/autodl-tmp/val2014
+
+# 移动到目标目录并且删除压缩包
+
+mv val2014 ./playground/data/eval/pope/val2014 && rm val2014.zip
