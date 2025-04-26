@@ -31,7 +31,7 @@ if __name__ == "__main__":
 
     # 构造相对路径
     annotation_dir = os.path.join(script_dir, "coco")
-    output_file = os.path.join(script_dir, "llava_test_wo_Answer the question.jsonl")
+    output_file = os.path.join(script_dir, "llava_test_origin.jsonl")
 
     generate_llava_pope_test_jsonl(
         annotation_dir= annotation_dir,
