@@ -46,7 +46,7 @@ if __name__ == "__main__":
 
     experiment = args.experiment
 
-    result_dir = os.path.join('./playground/data/eval/MME/eval_tool', 'answers', experiment)
+    result_dir = os.path.join('eval_tool', 'answers', experiment)
     os.makedirs(result_dir, exist_ok=True)
 
     answers = [json.loads(line) for line in open(os.path.join('answers', f'{experiment}.jsonl'))]
