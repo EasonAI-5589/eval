@@ -22,3 +22,12 @@ mv val2014 ./playground/data/eval/pope/val2014 && rm val2014.zip
 # 使用convert.py将coco文件夹中的3个jsonl文件合并成一个llava_pope_test_origin.jsonl
 
 python convert.py
+
+# 使用全新的eval_pope.py
+
+切换到根目录中
+把./llava/eval/eval_pope.py替换成./playground\data\eval\pope\eval_pope.py
+
+
+cd /
+cp ./playground/data/eval/pope/eval_pope.py ./llava/eval/eval_pope.py
