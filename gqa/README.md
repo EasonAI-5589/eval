@@ -23,11 +23,11 @@ cat /root/autodl-tmp/LLaVA/gqa-images.log
 ```
 
 ## 解压并移动到目标路径
-目标路径：`./playground/data/eval/gqa/data`
+目标路径：`/root/autodl-tmp/eval/gqa/data`
 
 ```bash
-unzip images.zip -d ./playground/data/eval/gqa/data/
-unzip eval.zip -d ./playground/data/eval/gqa/data/
+unzip images.zip -d /root/autodl-tmp/eval/gqa/data/
+unzip eval.zip -d /root/autodl-tmp/eval/gqa/data/
 ```
 
 ## 删除 ZIP 文件
