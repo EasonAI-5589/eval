@@ -17,7 +17,7 @@ unzip val2014.zip -d /root/autodl-tmp/val2014
 
 # 移动到目标目录并且删除压缩包
 
-mv val2014 ./playground/data/eval/pope/val2014 && rm val2014.zip
+mv val2014 /root/autodl-tmp/eval/pope/val2014 && rm val2014.zip
 
 # 使用convert.py将coco文件夹中的3个jsonl文件合并成一个llava_pope_test_origin.jsonl
 
@@ -30,4 +30,4 @@ python convert.py
 
 
 cd /
-cp ./playground/data/eval/pope/eval_pope.py ./llava/eval/eval_pope.py
+cp /root/autodl-tmp/eval/pope/eval_pope.py ./llava/eval/eval_pope.py
